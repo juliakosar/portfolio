@@ -124,33 +124,32 @@ footer img {
     margin-bottom: 10px; 
 }
 
+/*seção fotografia*/
+.custom-tab-content {
+    padding: 20px;
+  }
+  .image-thumbnail {
+    width: 100%;
+    height: 500px; /* Altura fixa para as imagens */
+    object-fit: cover; /* Garante que as imagens mantenham a proporção */
+  }
 .fotografia-texto {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bolder;
     background-color: white;
     
 }
-#videoclipes {
-    position: relative; /* Definir a posição como relativa para que o vídeo de fundo seja posicionado corretamente */
-    
-  }
   
   .image-wrapper {
     position: relative;
     padding-bottom: 56.25%;
-    height: 0;
+    height: auto;
+    width: 100%;   
     overflow: hidden;
     margin-bottom: 20px;
 
   }
   
-  .image-wrapper iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
   .nome-imagem{
   font-weight: bold;
   background-color: white;
@@ -172,4 +171,18 @@ footer img {
     font-family: 'Courier New', Courier, monospace;
     font-size: 40px;
     text-transform: uppercase;
+    text-align: center;
   }
+/*SEÇÃO CONTATO*/
+  .titulo-contato {
+    color: black;
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    text-transform: uppercase;
+  }
+  .social-icons img {
+    width: 30px; /* Largura dos ícones */
+    margin-right: 10px; /* Espaçamento à direita */
+  }
+  
